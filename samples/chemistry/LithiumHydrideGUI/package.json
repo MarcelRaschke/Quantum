@@ -12,6 +12,6 @@
     },
     "dependencies": {
         "chart.js": "^2.7.2",
-        "node-ipc": "^9.1.1"
+        "node-ipc": "^9.1.4"
     }
 }
