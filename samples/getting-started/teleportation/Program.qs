@@ -1,4 +1,4 @@
-﻿// Copyright (c) Microsoft Corporation. All rights reserved.
+﻿// Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
 namespace Microsoft.Quantum.Samples.Teleportation {
@@ -8,7 +8,7 @@ namespace Microsoft.Quantum.Samples.Teleportation {
 
     @EntryPoint()
     operation RunProgram () : Unit {
-        for (idxRun in 1 .. 8) {
+        for idxRun in 1 .. 8 {
             let sent = DrawRandomBool(0.5);
             let received = TeleportClassicalMessage(sent);
             Message($"Round {idxRun}: Sent {sent}, got {received}.");

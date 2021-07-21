@@ -10,17 +10,17 @@ urlFragment: iterative-phase-estimation
 
 # Iterative Phase Estimation
 
-This sample demonstrates iterative phase estimation using Bayesian inference to provide a simple method to perform the classical statistical analysis. You can read more about iterative phase estimation in [our documentation on quantum characterization and statistics](https://docs.microsoft.com/quantum/libraries/standard/characterization#iterative-phase-estimation).
+This sample demonstrates iterative phase estimation using Bayesian inference to provide a simple method to perform the classical statistical analysis. You can read more about iterative phase estimation in [our documentation on quantum characterization and statistics](https://docs.microsoft.com/azure/quantum/user-guide/libraries/standard/characterization#iterative-phase-estimation).
 
 ## Prerequisites
 
-- The Microsoft [Quantum Development Kit](https://docs.microsoft.com/quantum/install-guide/).
+- The Microsoft [Quantum Development Kit](https://docs.microsoft.com/azure/quantum/install-overview-qdk/).
 
 ## Running the Sample
 
 This sample can be run in a number of different ways, depending on your preferred environment.
 
-To run the sample, use the `dotnet run` command from your terminal. 
+To run the sample, use the `dotnet run` command from your terminal.
 
 ## Manifest
 

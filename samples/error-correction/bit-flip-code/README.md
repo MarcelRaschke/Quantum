@@ -11,13 +11,13 @@ urlFragment: bit-flip-code
 
 # Bit-flip Quantum Code Sample
 
-This sample demonstrates: 
+This sample demonstrates:
 
 - Using the Q# standard libraries to implement a simple quantum error correction code.
 
 ## Prerequisites
 
-- The Microsoft [Quantum Development Kit](https://docs.microsoft.com/quantum/install-guide/).
+- The Microsoft [Quantum Development Kit](https://docs.microsoft.com/azure/quantum/install-overview-qdk/).
 
 ## Running the Sample
 
@@ -31,4 +31,4 @@ To run the sample, use the `dotnet run` command from your terminal.
 
 ## Further resources
 
-- [Error correction library concepts](https://docs.microsoft.com/quantum/libraries/standard/error-correction)
+- [Error correction library concepts](https://docs.microsoft.com/azure/quantum/user-guide/libraries/standard/error-correction)

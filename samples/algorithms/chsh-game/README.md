@@ -25,6 +25,7 @@ jupyter:
 # Validating Quantum Mechanics with the CHSH Game
 
 This sample demonstrates:
+
 - How to prepare entangled states with Q#.
 - How to measure part of an entangled register.
 - Using Q# to understand superposition and entanglement.
@@ -34,7 +35,7 @@ This game helps us understand entanglement, and has even been used experimentall
 
 ## Prerequisites
 
-- The Microsoft [Quantum Development Kit](https://docs.microsoft.com/quantum/install-guide/).
+- The Microsoft [Quantum Development Kit](https://docs.microsoft.com/azure/quantum/install-overview-qdk/).
 
 ## Running the Sample
 
@@ -60,8 +61,8 @@ dotnet run
 
 Open the folder containing this sample in Visual Studio ("Open a local folder"
 from the Getting Started screen or "File → Open → Folder..." from the menu bar)
-and set `CHSHGame.csproj` as the startup project. 
-Press Start in Visual Studio to run the sample. 
+and set `CHSHGame.csproj` as the startup project.
+Press Start in Visual Studio to run the sample.
 
 ## Manifest
 
@@ -72,4 +73,4 @@ Press Start in Visual Studio to run the sample.
 
 ## Further resources
 
-- [Measurement concepts](https://docs.microsoft.com/quantum/concepts/pauli-measurements)
+- [Measurement concepts](https://docs.microsoft.com/azure/quantum/concepts-pauli-measurements)

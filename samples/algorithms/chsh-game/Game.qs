@@ -1,4 +1,4 @@
-﻿// Copyright (c) Microsoft Corporation. All rights reserved.
+﻿// Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
 namespace Microsoft.Quantum.Samples.CHSHGame {
@@ -122,6 +122,7 @@ namespace Microsoft.Quantum.Samples.CHSHGame {
         return MResetZ(qubit);
     }
 
+    @EntryPoint()
     operation PlayQuantumStrategy(
         aliceBit : Bool,
         bobBit : Bool,
@@ -129,17 +130,17 @@ namespace Microsoft.Quantum.Samples.CHSHGame {
         : Bool
     {
 
-        using ((aliceQubit, bobQubit) = (Qubit(), Qubit())) {
-            // Entangle Alice & Bob's qubits
-            H(aliceQubit);
-            CNOT(aliceQubit, bobQubit);
+        use aliceQubit = Qubit();
+        use bobQubit = Qubit();
+        // Entangle Alice & Bob's qubits
+        H(aliceQubit);
+        CNOT(aliceQubit, bobQubit);
 
-            // Randomize who measures first
-            if (aliceMeasuresFirst) {
-                return MeasureAliceQubit(aliceBit, aliceQubit) == MeasureBobQubit(bobBit, bobQubit);
-            } else {
-                return MeasureBobQubit(bobBit, bobQubit) == MeasureAliceQubit(aliceBit, aliceQubit);
-            }
+        // Randomize who measures first
+        if (aliceMeasuresFirst) {
+            return MeasureAliceQubit(aliceBit, aliceQubit) == MeasureBobQubit(bobBit, bobQubit);
+        } else {
+            return MeasureBobQubit(bobBit, bobQubit) == MeasureAliceQubit(aliceBit, aliceQubit);
         }
     }
 }

@@ -27,7 +27,7 @@ This sample walks through Grover's search algorithm. Oracles implementing the da
 
 ## Prerequisites
 
-- The Microsoft [Quantum Development Kit](https://docs.microsoft.com/quantum/install-guide/).
+- The Microsoft [Quantum Development Kit](https://docs.microsoft.com/azure/quantum/install-overview-qdk/).
 
 ## Running the Sample
 
@@ -52,7 +52,7 @@ dotnet run
 ### Running the Sample in Jupyter Notebook
 
 This sample can also be viewed using Jupyter Notebook.
-To do so, ensure that you have the IQ# kernel installed using the instructions in the [getting started guide](https://docs.microsoft.com/quantum/install-guide/jupyter).
+To do so, ensure that you have the IQ# kernel installed using the instructions in the [getting started guide](https://docs.microsoft.com/azure/quantum/install-jupyter-qdk).
 Then, start a new Jupyter Notebook session from this directory:
 
 ```powershell
@@ -66,4 +66,3 @@ jupyter notebook
 - [Program.cs](./Program.cs): C# code to interact with and print out results of the Q# operations for this sample.
 - [DatabaseSearchSample.csproj](./DatabaseSearchSample.csproj): Main C# project for the sample.
 - [Database Search.ipynb](./Database%20Search.ipynb): The sample as a Jupyter Notebook.
-

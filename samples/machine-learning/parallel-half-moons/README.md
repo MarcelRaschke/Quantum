@@ -19,7 +19,7 @@ The actual distribution of parallel tasks is performed using [Parallel LINQ (PLI
 
 ## Prerequisites
 
-- The Microsoft [Quantum Development Kit](https://docs.microsoft.com/quantum/install-guide/).
+- The Microsoft [Quantum Development Kit](https://docs.microsoft.com/azure/quantum/install-overview-qdk/).
 
 ## Running the Sample
 
@@ -36,7 +36,7 @@ dotnet run
 ### C# in Visual Studio 2019
 
 Open the folder containing this sample in Visual Studio ("Open a local folder" from the Getting Started screen or "File → Open → Folder..." from the menu bar) and set `HalfMoons.csproj` as the startup project.
-Press Start in Visual Studio to run the sample. 
+Press Start in Visual Studio to run the sample.
 
 ## Manifest
 

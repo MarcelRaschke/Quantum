@@ -11,6 +11,7 @@ urlFragment: measuring-qubits
 # Measuring Qubits
 
 This sample demonstrates:
+
 - The use of measurement operations to measure one or more qubits, getting classical data back that can be used in classical logic.
 - How to use assertions to build tests for expected behaviour of operations that involve measurements.
 - Resetting previously allocated qubits.
@@ -20,11 +21,11 @@ In this sample, we show how `M` can be used to sample random numbers, and to mea
 
 ## Prerequisites
 
-- The Microsoft [Quantum Development Kit](https://docs.microsoft.com/quantum/install-guide/).
+- The Microsoft [Quantum Development Kit](https://docs.microsoft.com/azure/quantum/install-overview-qdk/).
 
 ## Running the Sample
 
-To run the sample, use the `dotnet run` command from your terminal. 
+To run the sample, use the `dotnet run` command from your terminal.
 
 ## Manifest
 
@@ -33,5 +34,5 @@ To run the sample, use the `dotnet run` command from your terminal.
 
 ## Further resources
 
-- [Measurement concepts](https://docs.microsoft.com/quantum/concepts/pauli-measurements)
-- [Logging and assertion techniques](https://docs.microsoft.com/quantum/techniques/testing-and-debugging#logging-and-assertions)
+- [Measurement concepts](https://docs.microsoft.com/azure/quantum/concepts-pauli-measurements)
+- [Facts and assertion techniques](https://docs.microsoft.com/azure/quantum/user-guide/testing-debugging#facts-and-assertions)
