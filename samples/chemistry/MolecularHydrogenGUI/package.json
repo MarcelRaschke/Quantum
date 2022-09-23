@@ -8,7 +8,7 @@
     "author": "Microsoft",
     "license": "MIT",
     "devDependencies": {
-        "electron": "^18.3.11"
+
     },
     "dependencies": {
         "chart.js": "^2.7.2",
