@@ -13,7 +13,7 @@
     "publish": "npm run release && dotnet publish -c Release"
   },
   "devDependencies": {
-    "@types/chart.js": "2.7.55",
+    "@types/chart.js": "2.9.37",
     "clean-webpack-plugin": "1.0.1",
     "css-loader": "5.2.0",
     "html-webpack-plugin": "5.3.1",
